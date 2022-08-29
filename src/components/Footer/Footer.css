@@ -1,0 +1,9 @@
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+.footer-hr{
+  border-top: 1px solid;
+}

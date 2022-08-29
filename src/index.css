@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: white;
+  font-size: 14px;
+}
+.gl-search{
+  width: 280px;
+  padding: 2px 10px;
+  border-radius: 8px;
+  outline: none !important;
+  transition: all 200ms ease;
+  border: none;
+  background-color: #0D1117;
+}
+.gl-search:focus {
+  border: none;
+  width: 500px;
+  transition: all 200ms ease;
+  outline: none !important;
+  background-color: #0D1117;
+}
+
+select{
+  width: 16px;
+  background-color: #161B22;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.bi{
+  font-size: 14px;
+  color: rgb(189, 169, 169);
+}
+
+.header{
+  background-color: #161B22;
+  height: 62px;
+}
+
+.main-bg-color{
+  background-color: #0D1117;
+}
+.nav-text{
+  font-size: 13px;
+}
+
+.nav-link p:hover{
+  border-radius: 6px;
+  background-color: #21262C;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid rgb(219, 105, 105) !important;
+}
+.hr{
+  border-bottom: 1px solid ;
+}
+.top-minus{
+  margin-top: -40px;
+}
+.change-pinned:hover{
+  color: rgb(11, 166, 228) !important;
+  cursor: pointer;
+}
+.change-pinned{
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+}
+.repo-title{
+  color: rgb(11, 166, 228);
+}
+.repo-type{
+  border: 1px solid #21262C;
+  font-size: 12px;
+  color: #21262C;
+}
+
+.repo-title:hover{
+  text-decoration: underline !important;
+  color: rgb(11, 166, 228);
+}
+
+.repo-item{
+  width: 48% !important;
+  border: 1px solid #21262C;
+  height: 86px;
+  border-radius: 5px !important;
+}
+.red{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(235, 61, 8);
+  border-radius: 50%;
+}
+.yellow{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(253, 249, 10);
+  border-radius: 50%;
+}
+.violet{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(99, 8, 202);
+  border-radius: 50%;
+}
+.search-repo{
+  height: 30px;
+  padding: 0 8px;
+  font-size: 15px;
+}
+.search-repo:focus{
+  background-color: #0D1117;
+  color: #fff;
+}
+.updated{
+  font-size: 14px;
+  color: #929faf;
+}
+.star-btn{
+  font-size: 14px;
+  height: 30px;
+}
+svg:hover{
+  fill: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
